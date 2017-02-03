@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body{
+	background-color:#000;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	color:#000;
+}
+
+#storbox{
+	background-color:#000;
+	height:100%;
+	width:1200px;
+	position:absolute;
+	margin-left:17%;
+}
+
+header{
+	height:200px;
+	width:1200px;
+	background-image:url(banner.jpg);
+}
+
+nav{
+	background-color:#09F;
+	height:50px;
+	width:1200px;
+	text-align:center;
+	padding-top:20px;
+}
+
+article{
+	background-color:#FFF;
+	height:700px;
+	width:1200px;
+	overflow:hidden;
+}
+
+ul{
+	list-style:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+
+li{
+	line-height:40px;
+	height:100%;
+	width:33%;
+	float:left;
+}
