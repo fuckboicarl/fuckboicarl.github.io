@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:#CCC;
+}
+
+#storbox{
+	background-color:#11b7ee;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+header{
+	background-color:#666;
+	height:16%;
+	width:100%;
+	text-align:center;
+	position:relative;
+}
+
+h1{
+	font-size:60px;
+	text-shadow: 5px 5px 5px #11b7ee;
+	padding-top:25px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	margin-right:2%;
+}
+
+.topnav a:hover {
+    background-color: #FFF;
+    color: #11b7ee;
+	transition:ease-in 0.5s;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.indexArticle{
+	background-color:#11b7ee;
+	width:100%;;
+	height:80%;
+}
+
+#indexStycke{
+	text-align:center;
+	font-size:18px;
+	padding-top:18px;
+}
+
+.indexFig{
+	background-image:url(carsbi.jpg);
+	height:100%;
+	width:auto;
+	background-size:100% 100%;
+}
+
+aside{
+	background-color:#999;
+	height:80%;
+	width:15%;
+	float:left;
+}
+
+article{
+	background-color:#CCC;
+	height:80%;
+	width:70%;
+	float:left;
+	position:relative;
+}
+
+.articleStycke{
+	text-align:left;
+	font-size:18px;
+	padding-left:2%;
+	padding-right:2%;
+}
+
+.articleKällor{
+	text-align:center;
+	font-size:18px;
+	margin-top:5%;
+	padding-left:2%;
+	padding-right:2%;
+}
+
+.rightAside{
+	background-color:#999;
+	height:80%;
+	width:15%;
+	float:left;
+}
+
+.bmwFig{
+	background-image:url(bmwlogo.png);
+	background-repeat:no-repeat;
+	height:30%;
+	width:75%;
+	margin-top:75%;
+	margin-left:12.5%;
+	background-size:100% 100%;
+	position:relative;
+}
+
+.brpFig{
+	background-image:url(brplogo.png);
+	background-repeat:no-repeat;
+	height:30%;
+	width:75%;
+	margin-top:75%;
+	margin-left:12.5%;
+	background-size:100% 100%;
+	position:relative;
+}
+
+.ferrariFig{
+	background-image:url(ferrarilogo.png);
+	background-repeat:no-repeat;
+	height:35%;
+	width:100%;
+	margin-top:75%;
+	background-size:100% 100%;
+	position:relative;
+}
+
+.lamborghiniFig{
+	background-image:url(lamborghinilogo.png);
+	background-repeat:no-repeat;
+	height:30%;
+	width:75%;
+	margin-top:75%;
+	margin-left:12.5%;
+	background-size:100% 100%;
+	position:relative;
+}
+
+.mercedesFig{
+	background-image:url(mercedeslogo.png);
+	background-repeat:no-repeat;
+	height:30%;
+	width:100%;
+	margin-top:75%;
+	background-size:100% 100%;
+	position:relative;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1000px){
+	aside{
+		display:none;
+	}
+	
+	.rightAside{
+		display:none;
+	}
+	
+	article{
+		width:100%;
+	}
+	
+	h1{
+		padding-top:5px;
+	}
+}
+
+@media screen and (max-width:450px){
+	h1{
+		font-size:45px;
+	}
+}
+
+
